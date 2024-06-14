@@ -1,0 +1,68 @@
+body {
+    
+    font-family: sans-serif;
+    
+}
+
+
+  
+  
+
+.container {
+    display: block;
+    margin: 30px auto;
+    padding: 30px;
+width: 600px;
+border-radius: 10px;
+background:  rgb(253, 244, 253);
+box-shadow: 15px 15px 15px rgb(41, 40, 40) ;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+.city:last-child {
+    border: none;
+}
+
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+}
+.date {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 35px;
+   margin: 0 0 5px 0;
+    
+}
+footer {
+    text-align: center;
+    opacity: 80%;
+}
+
+.link {
+    color: blueviolet;
+}
